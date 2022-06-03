@@ -1,0 +1,9 @@
+---
+title: collections
+---
+
+{%- for name, pages in collections %}
+- "{{ name }}" => {{ pages.length }} pages
+{%- endfor %}
+
+<pre>{{ collections | keys }}</pre>
