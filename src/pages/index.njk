@@ -1,0 +1,10 @@
+---
+title: InDeX
+tags:
+  - example
+name: example
+---
+
+{% for item in collections[name] %}
+<p>title={{ item.data.title }}; {{ item.url }}</p>
+{% endfor %}
